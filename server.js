@@ -1,5 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
+//console.log("connectDB imported successfully");
 const userRoutes = require('./routes/userRoutes');
 const dotenv = require('dotenv');
 
